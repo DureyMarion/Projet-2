@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 100px;
+}
+
+.lieu {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=accueil.css.map */

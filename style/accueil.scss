@@ -5,6 +5,13 @@ $color-tertiary: #99E2D0;
 header{
     display: flex;
     justify-content: center;
-    width: 50%;
+
+    img{
+        width: 100px;
+    }
 }
 
+.lieu{
+    display: flex;
+    justify-content: center;
+}
