@@ -1,29 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 header {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0px 0px 10px #dfdfdf;
+  padding: 16px; }
   header img {
     width: 100px; }
 
 .lieu {
   display: flex;
   justify-content: center;
-  background-color: #a5a3a3; }
+  background-color: #f3f3f3;
+  padding: 20px 16px;
+  font-size: 19px;
+  font-style: normal !important;
+  font-weight: 700; }
   .lieu address {
     font-weight: bold; }
 
 button {
   background: #9356dc;
-  background: linear-gradient(360deg, #9356dc 0%, #ff79da 100%);
-  border-radius: 30px; }
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  border: none;
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px #dfdfdf; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
-.container {
-  width: 100%;
+.reservation {
   display: flex;
-  text-align: left; }
-  .container .background {
-    background-color: #d5d2d2; }
+  justify-content: center;
+  text-align: center;
+  padding: 32px; }
+  .reservation h2 {
+    font-size: 24px; }
+  .reservation .subtitle-reservation {
+    margin: 24px 0;
+    font-weight: 300; }
+  .reservation .background {
+    background-color: #fafafa; }
+  .reservation a.btn-recherche {
+    color: white !important; }
+    .reservation a.btn-recherche .btn {
+      font-size: 18px;
+      padding: 12px 24px; }
+
+.fonctionnement {
+  padding: 32px 16px; }
+  .fonctionnement .container {
+    width: 100%;
+    display: flex;
+    text-align: left; }
+  .fonctionnement .title-fonction {
+    margin-top: 0; }
+  .fonctionnement ol.etapes {
+    display: flex;
+    flex-direction: column; }
+  .fonctionnement .filter-button {
+    display: flex;
+    background-color: #f6f6f6;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+    height: 40px;
+    margin: 16px 0 16px 12px; }
+  .fonctionnement .filter-text {
+    margin-top: 10px; }
+  .fonctionnement i.fa-mobile-alt {
+    margin-right: 16px;
+    margin-top: 11px;
+    margin-left: 25px;
+    color: #7e7e7e; }
+  .fonctionnement i.fa-list-ul {
+    margin-right: 16px;
+    margin-top: 11px;
+    margin-left: 25px;
+    color: #7e7e7e; }
+  .fonctionnement i.fa-store {
+    margin-right: 16px;
+    margin-top: 11px;
+    margin-left: 25px;
+    color: #7e7e7e; }
 
 /*# sourceMappingURL=accueil.css.map */
