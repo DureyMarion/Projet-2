@@ -4,10 +4,15 @@ $color-tertiary: #99E2D0;
 $color-background1: #f3f3f3;
 $color-background2: #fafafa;
 $color-background3: #f6f6f6;
+$h2: 24px;
 
 *{
     margin: 0;
     padding: 0;
+}
+
+h2{
+    font-size: $h2;
 }
 
 header {
@@ -53,10 +58,6 @@ a{
     justify-content: center;
     text-align: center;
     padding: 32px;
-
-    h2{
-        font-size: 24px;
-    }
 
     .subtitle-reservation{
         margin: 24px 0; 
@@ -127,5 +128,15 @@ a{
         margin-top: 11px;
         margin-left: 25px;
         color: #7e7e7e; 
+    }
+}
+
+.restaurants{
+    background-color: $color-background3;
+    padding: 32px 16px;
+
+    .menu-carte{
+        display: flex;
+        flex-direction: column;
     }
 }

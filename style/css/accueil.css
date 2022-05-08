@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+h2 {
+  font-size: 24px; }
+
 header {
   display: flex;
   justify-content: center;
@@ -37,8 +40,6 @@ a {
   justify-content: center;
   text-align: center;
   padding: 32px; }
-  .reservation h2 {
-    font-size: 24px; }
   .reservation .subtitle-reservation {
     margin: 24px 0;
     font-weight: 300; }
@@ -85,5 +86,12 @@ a {
     margin-top: 11px;
     margin-left: 25px;
     color: #7e7e7e; }
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 32px 16px; }
+  .restaurants .menu-carte {
+    display: flex;
+    flex-direction: column; }
 
 /*# sourceMappingURL=accueil.css.map */
