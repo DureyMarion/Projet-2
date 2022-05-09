@@ -8,7 +8,7 @@ h2 {
   font-size: 26px;
   font-family: "Shrikhand";
   padding-top: 20px;
-  padding-bottom: 5px; }
+  padding-bottom: 30px; }
 
 h3 {
   font-size: 19px;
@@ -86,21 +86,30 @@ header {
 .img-carte {
   width: 100%;
   height: 300px;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative; }
 
 a {
   text-decoration: none;
   color: black; }
 
 .carte {
+  display: flex;
   background-color: #f6f6f6;
   border-radius: 32px 32px 0 0;
-  padding: 16px 32px 0 16px; }
+  padding: 16px 32px 0 16px;
+  position: absolute;
+  width: 100%;
+  top: 275px; }
+  .carte .fa-heart {
+    display: flex; }
 
-.sous-menu {
-  max-width: 100%;
-  padding: 0 16px;
-  overflow: hidden; }
+.background-carte {
+  background-color: #f6f6f6; }
+  .background-carte .sous-menu {
+    max-width: 100%;
+    padding: 0 16px;
+    overflow: hidden; }
 
 .menu-item {
   display: flex;
@@ -116,11 +125,13 @@ a {
     font-weight: 700;
     padding-left: 8px; }
 
-.btn-commander {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 48px 0;
-  width: 140px; }
+.background-btn {
+  background-color: #f6f6f6; }
+  .background-btn .btn-commander {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+    width: 140px; }
 
 /*# sourceMappingURL=menus.css.map */

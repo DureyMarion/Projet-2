@@ -32,6 +32,7 @@ header {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    position: relative;
 }
 
 a{
@@ -40,15 +41,27 @@ a{
 }
 
 .carte{
+    display: flex;
     background-color:$color-background3;
     border-radius: 32px 32px 0 0;
     padding: 16px 32px 0 16px;
+    position: absolute;
+    width: 100%;
+    top: 275px;
+
+    .fa-heart{
+        display: flex;
+    }
 }
 
-.sous-menu{
-    max-width: 100%;
-    padding: 0 16px;
-    overflow: hidden;
+.background-carte{
+    background-color: $color-background3;
+
+    .sous-menu{
+        max-width: 100%;
+        padding: 0 16px;
+        overflow: hidden;
+    }
 }
 
 .menu-item{
@@ -68,10 +81,14 @@ a{
     }
 }
 
-.btn-commander{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 48px 0;
-    width: 140px;
+.background-btn{
+    background-color: $color-background3;
+
+    .btn-commander{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 48px 0;
+        width: 140px;
+    }
 }
