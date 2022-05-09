@@ -7,7 +7,7 @@ $color-background1: #f3f3f3;
 $color-background2: #fafafa;
 $color-background3: #f6f6f6;
 
-
+/* Header */
 header {
     display: flex;
     justify-content: center;
@@ -29,7 +29,12 @@ header {
     font-weight: 700;
 
     address{
-        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .fa-map-marker-alt{
+        margin-right: 20px;
     }
 }
 

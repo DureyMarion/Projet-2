@@ -8,7 +8,7 @@ $font-family-text: 'Roboto';
 }
 
 h2{
-    font-size: 24px;
+    font-size: 26px;
     font-family: $font-family-text;
 }
 
@@ -20,6 +20,11 @@ h3{
 
 p{
     font-size: 16px;
+    font-family: $font-family-text;
+}
+
+address{
+    font-size: 19px;
     font-family: $font-family-text;
 }
 

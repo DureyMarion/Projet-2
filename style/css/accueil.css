@@ -5,7 +5,7 @@
   padding: 0; }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-family: "Roboto"; }
 
 h3 {
@@ -15,6 +15,10 @@ h3 {
 
 p {
   font-size: 16px;
+  font-family: "Roboto"; }
+
+address {
+  font-size: 19px;
   font-family: "Roboto"; }
 
 /* Footer */
@@ -47,6 +51,7 @@ li > a {
 .item3 {
   margin-top: 8px; }
 
+/* Header */
 header {
   display: flex;
   justify-content: center;
@@ -64,7 +69,10 @@ header {
   font-style: normal !important;
   font-weight: 700; }
   .lieu address {
-    font-weight: bold; }
+    font-style: normal;
+    font-weight: 400; }
+  .lieu .fa-map-marker-alt {
+    margin-right: 20px; }
 
 button {
   background: #9356dc;
