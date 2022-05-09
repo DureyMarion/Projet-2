@@ -1,0 +1,35 @@
+$font-family-title: 'Shrikhand';
+$font-family-text: 'Roboto';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 24px;
+    font-family: $font-family-text;
+}
+
+h3{
+    font-size: 19px;
+    padding-bottom: 4px;
+    font-family: $font-family-text;
+}
+
+p{
+    font-size: 16px;
+    font-family: $font-family-text;
+}
+
+footer{
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+    .logo-footer{
+        width: 8%;
+        margin: 0 0 16px; 
+    }
+}
