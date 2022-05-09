@@ -106,7 +106,8 @@ a {
   .carte .title-restaurant {
     padding: 16px 32px 0 16px; }
   .carte .fa-heart {
-    display: flex; }
+    display: flex;
+    font-size: x-large; }
 
 .background-carte {
   background-color: #f6f6f6; }
