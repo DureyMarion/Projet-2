@@ -24,10 +24,12 @@ footer {
     width: 8%;
     margin: 0 0 16px; }
 
+ul {
+  list-style-type: none; }
+
 li > a {
   color: #FFF;
-  font-family: "Roboto";
-  list-style-type: none; }
+  font-family: "Roboto"; }
 
 header {
   display: flex;
