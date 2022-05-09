@@ -1,0 +1,45 @@
+$font-family-text: 'Roboto';
+
+/* Footer */
+footer{
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    padding: $padding;
+
+    .logo-footer{
+        width: 110px;
+        margin: 0 0 16px; 
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+
+li > a{
+    color: #FFF;
+    font-family: $font-family-text;
+
+    .fa-utensils{
+        margin-right: 8px;
+    }
+
+    .fa-handshake-angle{
+        margin-right: 2px;
+    }
+}
+
+.item1{
+    margin-bottom: 8px;
+}
+
+.item2{
+    margin: 8px 0;
+}
+
+.item3{
+    margin-top: 8px;
+}
+
+
