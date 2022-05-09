@@ -6,6 +6,7 @@ $color-tertiary: #99E2D0;
 $color-background1: #f3f3f3;
 $color-background2: #fafafa;
 $color-background3: #f6f6f6;
+$padding: 32px 25px;
 
 /* Header */
 header {
@@ -15,7 +16,7 @@ header {
     padding: 16px;
 
     img {
-        width: 100px;
+        width: 200px;
     }
 }
 
@@ -44,6 +45,7 @@ button{
     border: none;
     border-radius: 30px;
     box-shadow: 4px 4px 10px rgb(223, 223, 223);
+    height: 50px;
 }
 
 a{
@@ -55,15 +57,13 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 32px;
+    padding: 32px 32px 45px 32px;
+    background-color: $color-background2;
 
     .subtitle-reservation{
-        margin: 24px 0; 
+        margin-top: 11px;
+        margin-bottom: 24px;
         font-weight: 300;
-    }
-
-    .background{
-        background-color: $color-background2;
     }
 
     a.btn-recherche{
@@ -75,8 +75,9 @@ a{
         }
     }
 }
+
 .fonctionnement{
-    padding: 32px 16px;
+    padding: $padding;
 
     .container{
     width: 100%;
@@ -105,6 +106,7 @@ a{
 
     .filter-text{
         margin-top: 20px;
+        font-family: $font-family-text;
     }
 
     i.fa-mobile-alt{
@@ -131,7 +133,7 @@ a{
 
 .restaurants{
     background-color: $color-background3;
-    padding: 32px 16px;
+    padding: $padding;
 
     .menu-carte{
         display: flex;

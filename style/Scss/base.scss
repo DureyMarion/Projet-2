@@ -1,5 +1,6 @@
 $font-family-title: 'Shrikhand';
 $font-family-text: 'Roboto';
+$padding: 32px 25px;
 
 /* Général */
 *{
@@ -10,6 +11,8 @@ $font-family-text: 'Roboto';
 h2{
     font-size: 26px;
     font-family: $font-family-text;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 h3{
@@ -34,7 +37,7 @@ footer{
     background-color: #353535;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: $padding;
 
     .logo-footer{
         width: 110px;
