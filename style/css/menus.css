@@ -13,6 +13,11 @@ h2 {
 h3 {
   font-size: 19px;
   padding-bottom: 4px;
+  font-weight: 300;
+  font-family: "Roboto"; }
+
+h4 {
+  font-size: 19px;
   font-family: "Roboto"; }
 
 p {
@@ -29,7 +34,9 @@ button {
   border: none;
   border-radius: 30px;
   box-shadow: 4px 4px 10px #dfdfdf;
-  height: 50px; }
+  height: 50px;
+  color: #FFF;
+  font-size: 18px; }
 
 /* Footer */
 footer {
@@ -87,6 +94,33 @@ a {
 
 .carte {
   background-color: #f6f6f6;
-  border-radius: 32px 32px 0 0; }
+  border-radius: 32px 32px 0 0;
+  padding: 16px 32px 0 16px; }
+
+.sous-menu {
+  max-width: 100%;
+  padding: 0 16px;
+  overflow: hidden; }
+
+.menu-item {
+  display: flex;
+  background-color: #FFF;
+  border-radius: 12px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: 16px 0; }
+  .menu-item .prix-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: 700;
+    padding-left: 8px; }
+
+.btn-commander {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0;
+  width: 140px; }
 
 /*# sourceMappingURL=menus.css.map */
