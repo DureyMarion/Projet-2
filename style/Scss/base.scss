@@ -1,6 +1,7 @@
 $font-family-title: 'Shrikhand';
 $font-family-text: 'Roboto';
 
+/* Général */
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +23,8 @@ p{
     font-family: $font-family-text;
 }
 
+
+/* Footer */
 footer{
     background-color: #353535;
     display: flex;
@@ -29,7 +32,7 @@ footer{
     padding: 16px;
 
     .logo-footer{
-        width: 8%;
+        width: 110px;
         margin: 0 0 16px; 
     }
 }
@@ -41,4 +44,26 @@ ul{
 li > a{
     color: #FFF;
     font-family: $font-family-text;
+
+    .fa-utensils{
+        margin-right: 8px;
+    }
+
+    .fa-handshake-angle{
+        margin-right: 2px;
+    }
 }
+
+.item1{
+    margin-bottom: 8px;
+}
+
+.item2{
+    margin: 8px 0;
+}
+
+.item3{
+    margin-top: 8px;
+}
+
+

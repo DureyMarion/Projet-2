@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Général */
 * {
   margin: 0;
   padding: 0; }
@@ -15,13 +17,14 @@ p {
   font-size: 16px;
   font-family: "Roboto"; }
 
+/* Footer */
 footer {
   background-color: #353535;
   display: flex;
   flex-direction: column;
   padding: 16px; }
   footer .logo-footer {
-    width: 8%;
+    width: 110px;
     margin: 0 0 16px; }
 
 ul {
@@ -30,6 +33,19 @@ ul {
 li > a {
   color: #FFF;
   font-family: "Roboto"; }
+  li > a .fa-utensils {
+    margin-right: 8px; }
+  li > a .fa-handshake-angle {
+    margin-right: 2px; }
+
+.item1 {
+  margin-bottom: 8px; }
+
+.item2 {
+  margin: 8px 0; }
+
+.item3 {
+  margin-top: 8px; }
 
 header {
   display: flex;
