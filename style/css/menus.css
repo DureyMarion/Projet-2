@@ -43,7 +43,7 @@ button {
 button:hover {
   background: #9f70d7;
   background: linear-gradient(360deg, #9f70d7 0%, #ff9ce4 100%);
-  box-shadow: 4px 4px 15px #e6e6e6; }
+  box-shadow: 4px 4px 10px #dfdfdf; }
 
 /* Footer */
 footer {
