@@ -112,28 +112,27 @@ a {
       padding: 12px 24px; }
 
 .fonctionnement {
-  padding: 32px 25px;
-  /*
-      .step-number{
-          background-color: $color-primary;
-          color: white;
-          border-radius: 100%;
-          width: 24px;
-          height: 24px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin:  auto 0;
-      } */ }
+  padding: 32px 25px; }
   .fonctionnement .container {
     width: 100%;
     display: flex;
     text-align: left; }
   .fonctionnement .title-fonction {
     margin-top: 0; }
+  .fonctionnement .step-number {
+    background-color: #9356DC;
+    color: white;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0; }
   .fonctionnement ol.etapes {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    counter-reset: filter; }
   .fonctionnement .filter-button {
     display: flex;
     background-color: #f6f6f6;
@@ -141,13 +140,6 @@ a {
     border-radius: 20px;
     height: 60px;
     margin: 16px 0 16px 12px; }
-  .fonctionnement .filter-button:before {
-    background-color: #9356DC;
-    color: white;
-    border-radius: 100%;
-    width: 24px;
-    height: 24px;
-    counter-increment: compteListe 1; }
   .fonctionnement .filter-text {
     margin-top: 20px;
     font-family: "Roboto"; }

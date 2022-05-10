@@ -81,7 +81,7 @@ a{
     .title-fonction{
         margin-top: 0;
     }
-/*
+
     .step-number{
         background-color: $color-primary;
         color: white;
@@ -92,11 +92,12 @@ a{
         align-items: center;
         justify-content: center;
         margin:  auto 0;
-    } */
+    }
 
     ol.etapes{
         display: flex;
         flex-direction: column;
+        counter-reset: filter;
     }
 
     .filter-button{
@@ -108,14 +109,6 @@ a{
         margin: 16px 0 16px 12px;
     }
 
-    .filter-button:before{
-        background-color: $color-primary;
-        color: white;
-        border-radius: 100%;
-        width: 24px;
-        height: 24px;
-        counter-increment: compteListe 1;
-    }
 
     .filter-text{
         margin-top: 20px;
