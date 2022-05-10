@@ -117,7 +117,8 @@ a {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: x-large;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    padding-left: 20px; }
 
 .background-carte {
   background-color: #f6f6f6; }
