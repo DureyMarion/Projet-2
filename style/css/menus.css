@@ -40,6 +40,11 @@ button {
   color: #FFF;
   font-size: 18px; }
 
+button:hover {
+  background: #9f70d7;
+  background: linear-gradient(360deg, #9f70d7 0%, #ff9ce4 100%);
+  box-shadow: 4px 4px 15px #e6e6e6; }
+
 /* Footer */
 footer {
   background-color: #353535;
@@ -132,12 +137,11 @@ a {
     padding-left: 8px; }
 
 .background-btn {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  padding: 48px 0;
+  display: flex;
+  justify-content: center; }
   .background-btn .btn-commander {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 48px 0;
     width: 140px; }
 
 /*# sourceMappingURL=menus.css.map */
