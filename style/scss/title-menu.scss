@@ -8,6 +8,11 @@ $padding: 32px 25px;
     padding: 0;
 }
 
+h1{
+    font-size: 28px;
+    font-family: $font-family-title;
+}
+
 h2{
     font-size: 26px;
     font-family: $font-family-title;
@@ -32,9 +37,4 @@ p{
     font-size: 16px;
     font-family: $font-family-text;
     padding-left: 10px;
-}
-
-address{
-    font-size: 19px;
-    font-family: $font-family-text;
 }
