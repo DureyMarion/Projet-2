@@ -81,13 +81,18 @@ a{
     .title-fonction{
         margin-top: 0;
     }
-
- /* ol{
+/*
+    .step-number{
         background-color: $color-primary;
-        border-radius: 100px;
+        color: white;
+        border-radius: 100%;
         width: 24px;
         height: 24px;
-    }*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:  auto 0;
+    } */
 
     ol.etapes{
         display: flex;
@@ -101,6 +106,15 @@ a{
         border-radius: 20px;
         height: 60px;
         margin: 16px 0 16px 12px;
+    }
+
+    .filter-button:before{
+        background-color: $color-primary;
+        color: white;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        counter-increment: compteListe 1;
     }
 
     .filter-text{
@@ -165,4 +179,5 @@ a{
     align-items: center;
     font-size: x-large;
     position: absolute;
+    color: gray;
 }
