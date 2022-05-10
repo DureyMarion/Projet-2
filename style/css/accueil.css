@@ -23,6 +23,21 @@ address {
   font-size: 19px;
   font-family: "Roboto"; }
 
+button {
+  background: #9356dc;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  border: none;
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px #dfdfdf;
+  height: 50px;
+  color: #FFF;
+  font-size: 18px; }
+
+button:hover {
+  background: #9f70d7;
+  background: linear-gradient(360deg, #9f70d7 0%, #ff9ce4 100%);
+  box-shadow: 4px 4px 10px #dfdfdf; }
+
 /* Footer */
 footer {
   background-color: #353535;
@@ -76,14 +91,6 @@ header {
   .lieu .fa-map-marker-alt {
     margin-right: 20px; }
 
-button {
-  background: #9356dc;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  border: none;
-  border-radius: 30px;
-  box-shadow: 4px 4px 10px #dfdfdf;
-  height: 50px; }
-
 a {
   text-decoration: none;
   color: black; }
@@ -105,7 +112,13 @@ a {
       padding: 12px 24px; }
 
 .fonctionnement {
-  padding: 32px 25px; }
+  padding: 32px 25px;
+  /* ol{
+         background-color: $color-primary;
+         border-radius: 100px;
+         width: 24px;
+         height: 24px;
+     }*/ }
   .fonctionnement .container {
     width: 100%;
     display: flex;
@@ -163,6 +176,9 @@ a {
 
 .fa-heart {
   display: flex;
-  font-size: x-large; }
+  justify-content: flex-end;
+  align-items: center;
+  font-size: x-large;
+  position: absolute; }
 
 /*# sourceMappingURL=accueil.css.map */
