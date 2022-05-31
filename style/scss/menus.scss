@@ -60,17 +60,45 @@ a{
     .title-restaurant{
         padding: 16px 32px 0 16px;
     }
-
-    .fa-heart{
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        font-size: x-large;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        color: $color-heart;
-    }
 }
+
+/* Animation coeur */
+.margin-bottom{
+    margin-bottom: 40px;
+}
+
+.fa-heart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: x-large;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    color: $color-heart;
+}
+
+.checkbox{
+    display: none;
+}
+
+.checked {
+    display: none;
+    transform: scale(0);
+    background: -webkit-linear-gradient(270deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.checkbox:checked ~ .checked {
+    transform: scale(1);
+    transition-duration: .5s;
+    display: inline-block;
+}
+  
+.checkbox:checked ~ .unchecked {
+    display: none;
+}
+
 
 /* Menu */
 .background-carte{
