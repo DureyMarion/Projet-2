@@ -18,6 +18,7 @@ h2{
     font-family: $font-family-title;
     padding-top: 20px;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 h3{
@@ -37,7 +38,7 @@ p{
     font-size: 16px;
     font-family: $font-family-text;
     padding-left: 10px;
-    width: 80%;
+    width: 96%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

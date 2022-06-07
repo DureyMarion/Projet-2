@@ -61,14 +61,18 @@ a{
 }
 
 /* Animation coeur */
+.position-heart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
 .margin-bottom{
     margin-bottom: 40px;
 }
 
 .fa-heart{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     font-size: x-large;
     padding-bottom: 5px;
     padding-left: 20px;
