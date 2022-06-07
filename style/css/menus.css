@@ -219,7 +219,7 @@ i.fa-circle-check {
   transition: transform .84s;
   margin-top: 15px; }
 
-.info:hover ~ .check {
+.info:hover ~ .check i {
   transform: rotate(360deg); }
 
 .info:hover {
