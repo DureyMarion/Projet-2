@@ -147,9 +147,9 @@ a{
     padding: $padding;
 
     .container{
-    width: 100%;
-    display: flex;
-    text-align: left;
+        width: 100%;
+        display: flex;
+        text-align: left;
     }
 
     .title-fonction{
@@ -309,3 +309,25 @@ a{
 
 /* Fin du main */
 /* Aller voir le fichier footer.scss */
+
+/* Fin de la version mobile */
+
+/* Début de la version Desktop */
+
+@media screen and (min-width: 1100px){
+    .menu-carte{
+        width: 50%;
+        margin: 10px;
+    }
+
+    .restaurants-desktop{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1099px){
+    
+}
+
