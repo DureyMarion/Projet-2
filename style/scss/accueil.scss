@@ -326,8 +326,15 @@ a{
     }
 }
 
+/* Version Tablette */
+@media screen and (min-width: 700px){
+    .filter-button{
+        width: 100%;
+        margin: 16px 0 16px 30px;
+    }
 
-@media screen and (min-width: 700px) and (max-width: 1099px){
-    
+    .etapes{
+        flex-direction: row;
+    }
 }
 
