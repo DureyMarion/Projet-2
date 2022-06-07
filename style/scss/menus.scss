@@ -105,6 +105,8 @@ a{
 /* Menu */
 .background-carte{
     background-color: $color-background3;
+    display: flex;
+    flex-direction: column;
 
     .sous-menu{
         max-width: 100%;
@@ -218,5 +220,21 @@ i.fa-check-circle {
 
     .btn-commander{
         width: 140px;
+    }
+}
+
+/* Fin de la version mobile */
+
+/* Début de la version Desktop */
+@media screen and (min-width: 1100px){
+
+    /* Menus */
+    .background-carte{
+        flex-direction: row;
+        padding-top: 15px;
+    
+        .padding-top-desktop{
+            padding-top: 25px;
+        }
     }
 }
