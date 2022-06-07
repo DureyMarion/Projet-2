@@ -189,11 +189,11 @@ i.fa-circle-check {
     margin-top: 15px;
 }
 
-.item:hover ~ .check {
+.info:hover ~ .check {
     transform: rotate(360deg);
 }
 
-.item:hover {
+.info:hover {
     animation: fade .84s forwards;
 }
 

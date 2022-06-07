@@ -219,10 +219,10 @@ i.fa-circle-check {
   transition: transform .84s;
   margin-top: 15px; }
 
-.item:hover ~ .check {
+.info:hover ~ .check {
   transform: rotate(360deg); }
 
-.item:hover {
+.info:hover {
   animation: fade .84s forwards; }
 
 @-webkit-keyframes fade {
