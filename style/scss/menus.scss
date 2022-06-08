@@ -75,7 +75,6 @@ a{
 .fa-heart{
     font-size: x-large;
     padding-bottom: 5px;
-    padding-left: 20px;
     color: $color-heart;
 }
 
@@ -95,6 +94,7 @@ a{
     transform: scale(1);
     transition-duration: .5s;
     display: inline-block;
+    padding-right: 24px;
 }
   
 .checkbox:checked ~ .unchecked {
