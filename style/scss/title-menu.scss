@@ -29,17 +29,40 @@ h3{
 }
 
 h4{
-    font-size: 19px;
+    font-size: 17px;
     font-family: $font-family-text;
     padding: 5px 0 0 10px;
-}
-
-p{
-    font-size: 16px;
-    font-family: $font-family-text;
-    padding-left: 10px;
-    width: 96%;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+p{
+    font-size: 15px;
+    font-family: $font-family-text;
+    padding-left: 10px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    h4{
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    p{
+        text-overflow: none;
+        overflow: visible;
+        white-space: none;
+    }
 }
